@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    margin-top:60px;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    background:#00c853;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00e676;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:10px;
+    background:#222;
+    padding:10px;
+    border-radius:8px;
+}
+
+.clear{
+    background:red;
+}
+
