@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Calorie Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔥 Live Calorie Tracker</h1>
+
+    <div class="input-box">
+        <input type="text" id="food" placeholder="Food name">
+        <input type="number" id="calories" placeholder="Calories">
+        <button onclick="addFood()">Add</button>
+    </div>
+
+    <h2>Total Calories: <span id="total">0</span></h2>
+
+    <ul id="list"></ul>
+
+    <button class="clear" onclick="clearAll()">Clear All</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
